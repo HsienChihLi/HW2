@@ -1,0 +1,12 @@
+# Python virtual environments
+hw-2/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# pytest
+.pytest_cache/
+
+# Mac System
+.DS_Store
