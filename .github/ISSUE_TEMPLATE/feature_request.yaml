@@ -1,0 +1,39 @@
+name: Feature Request
+description: 建議一個新功能或改善提案
+title: "[Feature] "
+labels: [enhancement]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🙌 感謝你願意提出功能建議！請盡可能具體描述你的想法或需求～
+
+  - type: input
+    id: feature-title
+    attributes:
+      label: 功能名稱（或一句話描述）
+      description: 你希望加入什麼功能？一句話說明
+      placeholder: 例如「新增匯出 CSV 按鈕」
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 背景／使用情境
+      description: 請說明你為什麼需要這個功能？有什麼痛點或使用場景？
+      placeholder: 例如「我需要把資料存到 Excel，所以希望能匯出 CSV」
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你期望的實作方式（可選）
+      description: 如果你有想法，可以提供具體做法或畫面範例
+      placeholder: 例如「新增一個按鈕、點了之後觸發 `export_to_csv()` 函式」
+    validations:
+      required: false
+

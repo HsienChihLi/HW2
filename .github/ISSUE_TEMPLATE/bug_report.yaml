@@ -1,0 +1,41 @@
+name: Bug Report
+description: Report a bug you've found
+title: "[Bug] "
+labels: [bug]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        👋 Thank you for taking the time to report a bug!
+        Please fill out the following form with as much detail as possible.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: What environment did the issue occur in? (OS, Python version, etc.)
+      placeholder: e.g. macOS 14 / Python 3.12 / pytest 8.x
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Clearly describe the issue you encountered and what you expected instead.
+      placeholder: What did you see? What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps to reproduce this bug.
+      placeholder: |
+        1. Run `python main.py`
+        2. Enter -3
+        3. See error...
+    validations:
+      required: false
