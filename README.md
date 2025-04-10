@@ -13,3 +13,7 @@ source venv/bin/activate
 ```shell
 pip install -r requirements.txt
 ```
+
+## Update
+
+Added note for testing pull request behavior.
