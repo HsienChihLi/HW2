@@ -3,6 +3,7 @@
 def add(a :int, b : int)->int:
     return a + b
 
+# Test for Github Actions
 def isEven(a: int)->bool:
     if a % 2 == 0:
         return True
