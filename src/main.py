@@ -1,7 +1,7 @@
 
 # Added a simple debug comment for testing PR
 def add(a :int, b : int)->int:
-    return a + b
+    return a + b + b
 
 def isEven(a: int)->bool:
     if a % 2 == 0:
