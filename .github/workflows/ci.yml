@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - names: Checkout repo
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - names: Set up Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
